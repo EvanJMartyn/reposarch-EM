@@ -1,6 +1,4 @@
-"useclient";
-
-import "./globals.css";
+import "./styles/globals.css";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import { AppProvider } from "../middleware/CombineProviders";
@@ -20,7 +18,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <link rel="shortcut icon" href="/images/favicon.ico" />
+        <link rel="shortcut icon" href={"/images/favicon.ico"} />
       </head>
       <AppProvider>
         <body

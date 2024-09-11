@@ -10,9 +10,9 @@ export const Arcn5005F2023Evaluations = [
   },
   {
     evaluation: "🟡 Quiz 1",
-    weight: "10%",
+    weight: "15%",
     week: "week05",
-    date: dayjs("October 5"),
+    date: dayjs("October 2"),
     type: "quiz",
     description:
       "Week 5: Online quiz (Brightspace) 20 minutes at the beginning of the class - It will cover contents of 4 first weeks",
@@ -21,51 +21,51 @@ export const Arcn5005F2023Evaluations = [
     evaluation: "🔴 Assignment 1",
     weight: "10%",
     week: "week07",
-    date: dayjs("October 19"),
+    date: dayjs("October 16"),
     type: "assignment",
     description: "Using HTML and CSS to create your assignment portal",
   },
   {
     evaluation: "🔴 Assignment 2",
     weight: "10%",
-    week: "week09",
-    date: dayjs("November 9"),
+    week: "week10",
+    date: dayjs("November 13"),
     type: "assignment",
     description:
       "3d model using Blender, a photogrammetry software (MeshRoom or Metashape) and Three.js",
   },
+  // {
+  //   evaluation: "🔴 Assignment 3",
+  //   weight: "10%",
+  //   week: "week12",
+  //   date: dayjs(" November 30"),
+  //   type: "assignment",
+  //   description:
+  //     "BIM model using Blender + Blender BIM and OpenBIM-Components (ifc.js)",
+  // },
+  {
+    evaluation: "🟡 Quiz 2",
+    weight: "15%",
+    week: "week12",
+    date: dayjs(" November 27"),
+    type: "quiz",
+    description:
+      "Week 12: Online quiz (Brightspace) 30 minutes at the beginning of the class - It will all course cover contents",
+  },
   {
     evaluation: "🔴 Assignment 3",
     weight: "10%",
-    week: "week11",
-    date: dayjs(" November 23"),
-    type: "assignment",
-    description:
-      "BIM model using Blender + Blender BIM and OpenBIM-Components (ifc.js)",
-  },
-  {
-    evaluation: "🟡 Quiz 2",
-    weight: "10%",
-    week: "week12",
-    date: dayjs(" November 30"),
-    type: "quiz",
-    description:
-      "Week 12: Online quiz (Brightspace) 20 minutes at the beginning of the class - It will cover contents of 11 first weeks",
-  },
-  {
-    evaluation: "🔴 Assignment 4",
-    weight: "10%",
     week: "week13",
-    date: dayjs(" December 07"),
+    date: dayjs(" December 04"),
     type: "assignment",
     description: "Custom map using maplibre",
   },
   {
-    evaluation: "🏁 Final Assignment",
+    evaluation: "🏁 Final Assignment (⚠️date, time, and location TBD)",
     weight: "30%",
     week: "week15",
-    date: dayjs("2023/12/18"),
+    date: dayjs("2023/12/16"),
     type: "final-assignment",
-    description: "Combine all together into a GIS/BIM platform",
+    description: "Combine all together into a GIS platform",
   },
 ];

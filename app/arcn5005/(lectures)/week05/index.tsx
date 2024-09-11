@@ -1,11 +1,11 @@
-import { Toc } from "../../../../types/types";
+import { Toc } from "@/app/types/types";
 
-import Image from "../../../../components/Common/Image";
-import Video from "../../../../components/Common/Video";
-import Quote from "../../../../components/Common/Quote";
-import EmojiTitle from "../../../../components/Common/EmojiTitle";
-import PdfViewer from "../../../../components/Common/PdfViewer";
-import SimpleButton from "../../../../components/Common/SimpleButton";
+import Image from "@/components/Common/Image";
+import Video from "@/components/Common/Video";
+import Quote from "@/components/Common/Quote";
+import EmojiTitle from "@/components/Common/EmojiTitle";
+import PdfViewer from "@/components/Common/PdfViewer";
+import SimpleButton from "@/components/Common/SimpleButton";
 
 import Freedoms from "./Freedoms";
 import OsiCriteria from "./Osi";
@@ -477,7 +477,7 @@ export const content: Toc = [
         <h2>Structure</h2>
         <br />
         <Image
-          src="/images/internet/html-structure.png"
+          src="/images/html/html-structure.png"
           alt="Html-structure"
           caption={"HTML Structure"}
         />
@@ -490,9 +490,22 @@ export const content: Toc = [
         <h2>Semantics</h2>
         <br />
         <Image
-          src="/images/internet/semantics.png"
+          src="/images/html/html-semantics.png"
           alt="Html-semantics"
           caption={"HTML Semantics"}
+        />
+      </>
+    ),
+  },
+  {
+    element: (
+      <>
+        <h2>Syntax</h2>
+        <br />
+        <Image
+          src="/images/html/html-syntax.png"
+          alt="Html-syntax"
+          caption={"HTML Syntax"}
         />
       </>
     ),
@@ -562,7 +575,7 @@ export const content: Toc = [
         <br />
         <iframe
           className="w-11/12 h-full border-solid border-2 border-dark p-5 rounded-lg bg-light shadow-md mx-10"
-          src="/arcn5005/f2023/students/nicolasarellanorisop/code-editors/html.html"
+          src="/arcn5005/terms/f2024/students/nicolasarellanorisop/code-editors/html.html"
         />
       </>
     ),

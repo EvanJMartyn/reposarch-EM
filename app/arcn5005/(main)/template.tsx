@@ -1,10 +1,10 @@
 "use client";
 
 import { useContext } from "react";
-import { SlidesFooter } from "../../../components/Footer";
-import { HeaderOfSlide } from "../../../components/Header";
-import { slides } from "../../MainMenu";
-import { ThemeContext } from "../../../middleware/Theme/context";
+import { SlidesFooter } from "@/components/Footer";
+import { HeaderOfSlide } from "@/components/Header";
+import { ThemeContext } from "@/middleware/Theme/context";
+import { slides } from "./MainMenu";
 
 export default function NestedTemplate({
   children,
@@ -19,7 +19,7 @@ export default function NestedTemplate({
           mode === "light" ? "bg-light" : "bg-dark "
         }`}
       >
-        <HeaderOfSlide slides={slides} />
+        <HeaderOfSlide slides={slides} section="arcn" />
       </header>
       <section className="top-24 flex justify-center items-center grow ">
         {children}
